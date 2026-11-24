@@ -29,7 +29,7 @@ python visualize.py
 ```
 
 #### 3. Integrated GUI Application (Recommended)
-Launch the unified desktop interface combining expense entry, history table, and live-updating donut chart:
+Launch the unified Tkinter desktop app combining expense entry, full CRUD editing/deletion, monthly budget alerts, and live-updating donut charts:
 ```bash
 python app.py
 ```
