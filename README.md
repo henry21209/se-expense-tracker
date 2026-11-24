@@ -27,6 +27,13 @@ Generate an interactive category donut chart and terminal expense summary from `
 ```bash
 python visualize.py
 ```
+
+#### 3. Integrated GUI Application (Recommended)
+Launch the unified desktop interface combining expense entry, history table, and live-updating donut chart:
+```bash
+python app.py
+```
+
 **Optional Arguments & Interactive Features:**
 - **Filter by month (`YYYY-MM`)**: `python visualize.py --month 2026-11`
 - **Select initial color theme (`modern`, `morandi`, `dark`)**: `python visualize.py --theme dark`
