@@ -27,18 +27,17 @@ Generate an interactive category donut chart and terminal expense summary from `
 ```bash
 python visualize.py
 ```
-
-#### 3. Integrated GUI Application (Recommended)
-Launch the unified Tkinter desktop app combining expense entry, full CRUD editing/deletion, monthly budget alerts, and live-updating donut charts:
-```bash
-python app.py
-```
-
 **Optional Arguments & Interactive Features:**
 - **Filter by month (`YYYY-MM`)**: `python visualize.py --month 2026-11`
 - **Select initial color theme (`modern`, `morandi`, `dark`)**: `python visualize.py --theme dark`
 - **Custom output filename**: `python visualize.py --output custom_chart.png`
 - **Interactive Controls**: Use the buttons at the bottom of the chart window to switch themes live (`Modern` / `Morandi` / `Dark Mode`) or click `Save PNG` to export a clean chart image.
+ 
+#### 3. Integrated GUI Application (Recommended)
+Launch the unified Tkinter desktop app combining expense entry, full CRUD editing/deletion, monthly budget alerts, and live-updating donut charts:
+```bash
+python app.py
+```
 
 ### Sample Output
 ![Expense Pie Chart](pie_chart.png)
